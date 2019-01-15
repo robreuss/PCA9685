@@ -82,7 +82,7 @@ public class PCA9685 {
         
         self.endpoint = i2cBus[address.rawValue]
         guard self.endpoint.reachable else {
-            fatalError("I2C Address \(address.rawValue) is Unreachable")
+            fatalError("I2C Address \(address.rawValue) is unreachable.")
         }
 
         // Now, Configure the PCA9685
