@@ -32,7 +32,7 @@
 import SingleBoard
 
 public enum Address: UInt8 {
-    case pca9685     = 0x60
+    case pca9685     = 0x40
 }
 
 enum Register: UInt8 {
